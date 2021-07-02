@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.5-SNAPSHOT'
+	id 'fabric-loom' version '0.7-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -12,6 +12,10 @@ group = project.maven_group
 
 
 repositories {
+
+	maven {
+		url "https://maven.shedaniel.me/"
+	}
 
 	maven {
 		url = "https://maven.theillusivec4.top/"
